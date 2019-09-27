@@ -9,4 +9,4 @@ const p = new Promise((reslove, reject) => {
 
 p
     .then(result => console.log('Result', result))
-    .catch(err => console.log('Result', err.message));
+    .catch(err => console.log('Error', err.message));
